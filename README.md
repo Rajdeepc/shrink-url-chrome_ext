@@ -10,7 +10,7 @@ Select any url or text and it automatically copies to the textbox in the extensi
 
 Manually paste url and shorten<br>
 
-![select](select.png)
+![select](urlshortenerext.png)
 
 ## Download
 
