@@ -21,5 +21,5 @@
          "default_icon": "icon.png",
          "default_popup":"popup.html"
      },
-     "permissions":["tabs"]
+     "permissions":["tabs","activeTab"]
  }
