@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Rajdeep Portfolio</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            margin: 0px;
+            border-radius: 3px;
+        }
+
+        .shortener {
+            width: 300px;
+        }
+
+        .shortener h1 {
+            margin-top: 0px;
+            background: #512DA8;
+            color: #fff;
+            font-size: 16px;
+            font-weight: 300;
+            padding: 10px;
+        }
+
+        .form-control {
+            position: relative;
+            padding: 10px;
+        }
+
+        .form-control input {
+            height: 22px;
+            width: 75%;
+        }
+
+        .form-control button {
+            height: 29px;
+            width: 20%;
+            background: #7B1FA2;
+            color: #fff;
+            border: 0px;
+        }
+
+        .shortened {
+            padding: 8px;
+        }
+
+        .shortened p {
+            margin: 0px;
+        }
+    </style>
+    <script type="text/javascript" src="popup.js"></script>
+    <script type="text/javascript" src="content.js"></script>
+
+</head>
+
+<body>
+    <div class="shortener">
+        <h1>URL Shortener</h1>
+        <div class="form-control">
+            <input type="text" value="" id="urlshortneer" />
+            <button id="shrinkrul">Shrink</button>
+        </div>
+        <div class="shortened">
+            <p>Shortened Url will show up below</p>
+            <a href="" target="_blank" id="shorturl"></a>
+        </div>
+    </div>
+</body>
+
+</html>
